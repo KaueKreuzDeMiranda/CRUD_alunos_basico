@@ -73,7 +73,7 @@ public class Main {
                     Aluno encontrado = dao.buscarPorId(idBuscar);
 
                     if(encontrado != null) {
-                        System.out.println(encontrado);
+                        encontrado.exibirAluno();
                     }else{
                         System.out.println("\nAluno não encontrado");
                     }
